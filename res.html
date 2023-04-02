@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Lakshman Resume	</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing:border-box;
+				list-style: none;
+				font-family: 'Times New Roman', Times, serif;
+			}
+			body{
+				background: #585c56;
+				font-size: 14px;
+				line-height: 22px;
+				color:#555555;
+			}
+			.name{
+				font-weight: 700;
+				font-size: 20px;
+				text-transform:uppercase;
+				font-family: 'Times New Roman', Times, serif;
+				color:#0bb5f4;
+			}
+			.semibolt{
+				font-weight: 500;
+				font-size: 16px;
+			}
+			.resume{
+				width: 800px;
+				height: auto;
+				display:flex;
+				margin: 50px auto;
+			}
+			.resume .left{
+				width: 280px;
+				background: #0bb5f4;
+			}
+			.resume .left .pro{
+				width:100%;
+				height: 280px;
+			}
+			.resume .left .pro img{
+				width: 100%;
+				height: 100%;
+			}
+			.resume .left .content{
+				padding: 0 25px;
+			}
+			.resume .title{
+				margin-bottom: 20px;
+			}
+			.resume .left .name{
+				color:#fff;
+			}
+			.resume .left .reg{
+				color: #b1eaff;;
+			}
+			.resume .item{
+				padding: 25px 0;
+				border-bottom: 2px solid #b1eaff;
+			}
+			.resume .left .item:last-child{
+				border-bottom: 0px;
+			}
+			.resume .left ul li{
+				display:block;
+				align-items: center;
+				margin-bottom: 10px;
+			}
+			.resume .left ul li :last-child{
+				margin-bottom: 0;
+			}
+			.resume .left ul li .data{
+				color: #b1eaff;
+			}
+			.resume .left .info ul li{
+				color:#b1eaff;
+				justify-content: space-between;
+			}
+			.resume .left .info ul li .skills{
+				width: 25%;
+			}
+			.resume .left .info ul li .progress{
+				width: 60%;
+				margin: 0 5px;
+				height: 5px;
+				background: #009fd9;
+				position: relative;
+			}
+			.resume .left .skills ul li .skills .per{
+				width: 15%;
+			}
+			.resume .left .info ul li .progress span{
+				position: absolute;
+				top: 0;
+				left:0;
+				height: 100%;
+				background: #fff;
+			}
+			.resume .right{
+				width:520px;
+				background: #fff;
+				padding:25px;
+			}
+			.resume .right .bolt{
+				color:#0bb5f4;
+			}
+			.resume .right .itemwork,
+			.resume .right .itemeducation{
+				padding: 40px;
+				overflow: hidden;
+			}
+			.resume .right ul li{
+				position: relative;
+			}
+			.resume .right ul li .date{
+				font-size: 16px;
+				font-weight: 500;
+				margin-bottom: 15px;
+			}
+			.resume .right ul li .info{
+				margin-bottom: 20px;
+			}
+			.resume .right ul li:last-child .info{
+				margin-bottom: 0;
+			}
+
+			.resume .right .itemwork:before,
+			.resume .right .itemeducation ul li:before{
+				content:"";
+				position: absolute;
+				top: 5px;
+				left: -25px;
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				border:2px solid #0bb5f4;
+			}
+			.resume .right .itemhobby ul{
+				display:block;
+				justify-content: space-between;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="resume">
+			<div class="left">
+				<div class="pro>">
+					<img src="MyPhoto.jpg" alt="MyPhoto_pic" height="280" width="280">
+				</div>
+				<div class="content">
+					<div class="item">
+						<div class="title">
+							<p class="name"><u>Lakshman Kumar</u> </p>
+							<p class="reg"> <i>Want to Become a Full Stack Developer</i></p>
+						</div>
+						<ul>
+							<li> 
+								<div class="data"><b>Place: Gollapudi,Vijayawada</b></div>
+							</li>
+							<li> 
+								<div class="data"><b>Ph.no: 9515132499</b></div>
+							</li>
+							<li> 
+								<div class="icon"></div>
+								<div class="data"><b>gollalakshmankumar2003@gmail.com</b></div>
+							</li>
+						</ul>
+					</div>
+					<div class="info">
+						<div class="title">
+							<p class="name">Skill's </p>
+						</div>
+						<ul>
+							<li>
+								<div class="skills"> 
+									HTML 
+								</div>
+									<div class="progress">
+										<span style="width:70%;"></span>
+									</div>
+								<div class="per"> 70% </div>
+							</li>
+							<li>
+								<div class="skills"> CSS </div>
+								<div class="progress">
+								<span style="width:50%;"></span>
+								</div>
+								<div class="per"> 50% </div>
+							</li>
+							<li>
+								<div class="skills"> JavaScript</div>
+								<div class="progress">
+								<span style="width:50%;"></span>
+								</div>
+								<div class="per"> 50% </div>
+							</li>
+						</ul>
+					</div>
+					<div class="social">
+						<div class="item">
+						<div class="title">
+							<p class="name">Social</p>
+						</div>
+						<ul>
+							<li> 
+								
+								<div class="data">
+									<a href="https://www.linkedin.com/in/lakshman-kumar-44830a1b0/"> Linkedin </a>
+								</div>
+								<div class="data">
+									<a href="https://github.com/LakshmanKumar01/LakshmanKumar01"> Github</a>
+								</div>
+								<div class="data">
+									<a href="https://www.facebook.com/profile.php?id=100015189045759"> Facebook</a>
+								</div>
+								<div class="data">
+									<a href="https://www.instagram.com/lakshmankumar_7/"> Instagram</a>
+								</div>
+								</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+					<div class="itemabout">
+						<div class="title">
+							<p class="name"> <u>About Me</u></p>
+						</div>
+						<p> Work for an organisation with provides me oppurtunity to improve my skills and knowledge to grow along with the organisation objective</p>
+					</div>
+					<div class="itemwork">
+						<div class="title">
+							<p  class="name"> <u>Work Experience</u></p>
+						</div>
+						<p> As A Fresher</p>
+					</div>
+					<div class="itemeducation">
+						<div class="title">
+							<p class="name"><u>Education</u></p>
+						</div>
+						<ul>
+							<li>
+								<div class="date">2020-2024</div>
+								<div class="info">
+									<p class="semibolt"> B.Tech </p>
+									<p>From Nimra College Of Engineering And Technology.
+										Ibrahimpatnam, JUPUDI Affiliated to JNTUK in 2024 with 75%</p>
+								</div>
+								<li>
+								<div class="date">2016-2018</div>
+								<div class="info">
+									<p class="semibolt"> Board Of Intermediate Education </p>
+									<p>From Narayana Junior College, with 8.5 Grade
+										Manav Mandir Street,Bhavanipuram,Vijayawada.</p>
+								</div>
+								</li>
+						        <li>
+								<div class="date">2015-2016</div>
+								<div class="info">
+									<p class="semibolt"> Board Of Secondary Education </p>
+									<p>From K.C HIGH SCHOOL, with 9.5 Grade
+										Vidyadharapuram, R.T.C Work Shop Road, Vijayawada</p>
+								</div>
+						        </li>	
+						</ul>
+					</div>
+					<div class="itemhobby">
+						<div class="title">
+							<p class="name"> <u>Hobby</u></p>
+						</div>
+						<ul>
+							<li> Playing Games </li>
+							<li> Reading Books </li>
+							<li> Listening Music </li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
